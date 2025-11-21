@@ -1,13 +1,15 @@
 import sys
 
 if len(sys.argv) != 5:
-    print("Usage: python login.py <website> <url> <username> <password>")
-    sys.exit(1)
+       website  = sys.argv[1]
+        url      = sys.argv[2]
+        username = sys.argv[3]
+        password = sys.argv[4]    
 else:
-    website  = sys.argv[1]
-    url      = sys.argv[2]
-    username = sys.argv[3]
-    password = sys.argv[4]
+        website  = "google.com"
+        url      = "https.google.com"
+        username = "Sameer Ahmad"
+        password = "sameer@07
 
     print("Login Details:")
     print(f"Website : {website}")
